@@ -1,0 +1,44 @@
+{ 
+	"name" : "credit-card-reveal",
+	"version" : "0.1.0",
+	"description" : "Identifica correctamente las tarjetas de Visa, Amex, Mastercard, Diners, Discover, JCB, Switch, Solo, Dankort, Maestro, Forbrugsforeningen, láser.",
+	"author": {
+		"name": "Esteban Fuster Pozzi",
+		"email": "estebanrfp@gmail.com"
+	},
+	"repository": {
+			"type": "git",
+			"url": "https://github.com/estebanrfp/credit-card-reveal"
+		},
+	"main": "./lib/index.js",
+	"scripts": {
+		"test": "mocha test/"
+	},
+	"keywords": [
+		"credit card",
+		"card",
+		"credit",
+		"creditcard",
+		"mod10",
+		"verify",
+		"identify",
+		"categorize",
+		"luhn",
+		"visa",
+		"amex",
+		"mastercard",
+		"diners",
+		"discover",
+		"jcb",
+		"switch",
+		"solo",
+		"dankort",
+		"maestro",
+		"forbrugsforeningen",
+		"laser"
+	],
+	"devDependencies": {
+		"mocha": "1.13.x",
+		"should": "1.3.x"
+	}
+}
