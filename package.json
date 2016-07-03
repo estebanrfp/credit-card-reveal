@@ -1,6 +1,6 @@
 { 
 	"name" : "credit-card-reveal",
-	"version" : "0.1.0",
+	"version" : "0.1.1",
 	"description" : "Identifica correctamente las tarjetas de Visa, Amex, Mastercard, Diners, Discover, JCB, Switch, Solo, Dankort, Maestro, Forbrugsforeningen, láser.",
 	"author": {
 		"name": "Esteban Fuster Pozzi",
@@ -14,6 +14,7 @@
 	"scripts": {
 		"test": "mocha test/"
 	},
+	"tonicExampleFilename": "./test/example.js",
 	"keywords": [
 		"credit card",
 		"card",
