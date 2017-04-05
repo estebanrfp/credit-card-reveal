@@ -1,5 +1,5 @@
 # Credit Card Reveal
-=============
+
 Credit cards identifier from Visa, Amex, Mastercard, Diners, Discover, JCB, Switch, Solo, Dankort, Maestro, Forbrugsforeningen, Laser.
 
 ## Install
@@ -37,6 +37,6 @@ console.log(revealCard('3026210028069895')) //Diners
 
 [estebanrfp](https://desarrolloactivo.com/)
 
-## LICENSE
+## License
 
 [MIT](https://opensource.org/licenses/MIT)
