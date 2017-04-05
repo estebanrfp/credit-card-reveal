@@ -1,16 +1,22 @@
-Credit Card Reveal
+# Credit Card Reveal
 =============
-Identifica correctamente las tarjetas de Visa, Amex, Mastercard, Diners, Discover, JCB, Switch, Solo, Dankort, Maestro, Forbrugsforeningen, láser.
+Credit cards identifier from Visa, Amex, Mastercard, Diners, Discover, JCB, Switch, Solo, Dankort, Maestro, Forbrugsforeningen, Laser.
 
-Interface
------
+## Install
+
+```
+npm install credit-card-reveal
+```
+
+## Interface
+
 ```js
 revealCard('card number');
 ```
-Se pasa un número de tarjeta, devolverá el nombre de la tarjeta o "Unknown".
+A card number is passed, the name of the card or "Unknown" is returned.
 
-Usage
------
+## Usage
+
 ```js
 revealCard = require('credit-card-reveal')
 
@@ -27,11 +33,10 @@ console.log(revealCard('3011286804723969')) //Diners
 console.log(revealCard('3026210028069895')) //Diners
 ```
 
-contribuyendo
-------------
-Todas las contribuciones son bienvenidas.
-Indica a continuación las pruebas para demostrar los cambios
+## Credits
 
-LICENSE
--------
+[estebanrfp](https://desarrolloactivo.com/)
 
+## LICENSE
+
+[MIT](https://opensource.org/licenses/MIT)
