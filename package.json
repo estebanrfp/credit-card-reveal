@@ -1,6 +1,6 @@
 { 
 	"name" : "credit-card-reveal",
-	"version" : "0.1.2",
+	"version" : "0.1.4",
 	"description" : "Credit cards identifier from Visa, Amex, Mastercard, Diners, Discover, JCB, Switch, Solo, Dankort, Maestro, Forbrugsforeningen, Laser.",
 	"author": {
 		"name": "Esteban Fuster Pozzi",
